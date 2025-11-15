@@ -6,7 +6,8 @@ export const SLIDES_DATA: SlideData[] = [
     points: [
       { text: "Lessons learned from real-world implementation" },
       { text: "Building a shared knowledge base for others" },
-      { text: "Zach W and Jeff B | The Space | November 2025" }
+      { text: "Zach W and Jeff B | The Space | November 2025" },
+      { text: "#HOST - poll.denver.space" }
     ]
   },
   {
@@ -57,7 +58,7 @@ export const SLIDES_DATA: SlideData[] = [
     title: "Cost Analysis",
     points: [
       { text: "Break-even is real: Upfront investment pays off with recurring monthly savings." },
-      { text: "Ongoing costs: Electricity (~$30/month), maintenance time investment." },
+      { text: "Ongoing costs: Electricity (~$20-30/month), maintenance time investment." },
       { text: "Data ownership is priceless, especially in the world of AI." },
       { text: "Compare: One-time predictable investment vs. variable monthly bills that never end." }
     ]
@@ -165,6 +166,7 @@ export const SLIDES_DATA: SlideData[] = [
       { text: "Automation: Ansible playbooks and quick deployments, updates, consistent configs and CI/CD workflows." },
       { text: "Unified Platform: A single user app for auth and access across all services." },
       { text: "IoT & Smart Systems: Deeper integration within physical space using Home Assistant." },
+      { text: "Frigate NVR: Self-hosted video surveillance with AI object detection for security monitoring." },
       { text: "Monitoring: Prometheus, Grafana, Uptime Kuma (future goal)." },
       { text: "Alert System: Email/SMS alerts for system health (future goal)." }
     ]
