@@ -104,12 +104,22 @@ export const SLIDES_DATA: SlideData[] = [
   {
     title: "What We Replaced",
     points: [
-      { text: "Nextcloud: Our main app - data storage for content, managing calendar, project collaboration, and more." },
-      { text: "Twenty CRM: Very new, just starting (replacing traditional CRM)." },
+      { text: "Nextcloud (Google Suite): Our main app - data storage for content, managing calendar, project collaboration, and more." },
+      { text: "Nextcloud Collab (Google Docs): Real-time document collaboration." },
+      { text: "Listmonk (Mailchimp): Email newsletter management." },
+      { text: "Twenty (HubSpot): Very new, just starting with CRM." },
+      { text: "Claper: Self-hosted survey tool." },
+      { text: "Pretalx: Self-hosted conference tool." },
       { text: "Telegram: Tried Matrix, using Telegram for communication." },
       { text: "Still using Proton Mail and Proton Pass for essentials (being careful with critical services)." },
       { text: "Bitwarden would be great but too much pressure to get it right - security is critical." },
-      { text: "Lightning node: Keeping small balance, most channels inbound for force closure cost prevention." }
+      { text: "Lightning node & Mempool.space: Keeping small balance, most channels inbound for force closure cost prevention. Our node, our mempool rules." }
+    ]
+  },
+  {
+    title: "Proxmox VE",
+    points: [
+      { text: "" }
     ]
   },
   {

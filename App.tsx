@@ -35,7 +35,7 @@ const App: React.FC = () => {
             >
               {SLIDES_DATA.map((slide, index) => {
                 // Custom image mapping to account for new slides
-                const imageMap: { [key: number]: number | undefined } = {
+                const imageMap: { [key: number]: number | string | undefined } = {
                   0: undefined, // Title - no image
                   1: 1,  // Comparison
                   2: 2,  // Tradeoffs
@@ -44,14 +44,15 @@ const App: React.FC = () => {
                   5: 5,  // Pain Points
                   6: 15, // Cost Analysis
                   7: 6,  // Our Stack
-                  8: undefined, // What We Replaced - new slide, no image
-                  9: 7,  // 3-2-1 Backups
-                  10: 8, // Networking
-                  11: 9, // Security
-                  12: 10, // To The Future?
-                  13: 14, // Lessons Learned
-                  14: undefined, // Advice - no image
-                  15: 16, // Questions?
+                  8: undefined, // What We Replaced - no image
+                  9: 'prox',  // Proxmox VE - full size prox.png
+                  10: 7,  // 3-2-1 Backups
+                  11: 8, // Networking
+                  12: 9, // Security
+                  13: 10, // To The Future?
+                  14: 14, // Lessons Learned
+                  15: undefined, // Advice - no image
+                  16: 16, // Questions?
                 };
                 const imageNum = imageMap[index] ?? undefined;
                 const imageSrc = imageNum !== undefined ? `/images/${imageNum}.png` : undefined;
